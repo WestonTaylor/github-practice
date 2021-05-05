@@ -1,0 +1,55 @@
+/* 
+    go over git commands
+    git add, git push, git origin m
+    to push files onto github from gitbash
+    git add., . means everything
+        then do git commit -m, meaningful message
+    specify changes since last time, should not be long enough for and to be in your message
+    git push origin main
+    order; add, commit, push
+        git add.
+        git commit :-m
+        git push origin
+*/
+.column {
+    background-color: #0ae7dc;
+    width: 32%;
+    float: left;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+    border: solid blue 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    background-color: rgb(9, 255, 0);
+}
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+#day5 {
+    background-image: url(./images/Bitwise-SEO.jpg);
+    background-size: 125px;
+}
+
+#day6 {
+    background-image: url(./images/Bitwise-blank-target.png);
+    background-size: 400px;
+}
+
+#day7 {
+    background-image: url(./images/Bitwise-github-picture.jpg);
+    background-size: 175px;
+}
